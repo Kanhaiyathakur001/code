@@ -1,4 +1,4 @@
-export ZONE=
+
 export REGION="${ZONE%-*}"
 
 gcloud config set compute/zone $ZONE
